@@ -22,14 +22,15 @@ Before starting, ensure you have the following installed:
 
 Clone the repository and navigate to the project directory:
 
-
+``` sh
 git clone https://github.com/your-username/service-marketplace
 cd service-marketplace
 anchor build
 anchor deploy // solana-test-validator
 npm install @project-serum/anchor
 
-
+```
+```sh
 const anchor = require('@project-serum/anchor');
 const { SystemProgram } = anchor.web3;
 
@@ -72,12 +73,12 @@ module.exports = {
   listService,
   purchaseService,
 };
-
-
+```
+```sh
 ## Run the client script
 
 node your_script_name.js
-
+```
 
 ## Program Structure
 
