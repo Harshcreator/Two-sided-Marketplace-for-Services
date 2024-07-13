@@ -2,18 +2,6 @@
 
 This project implements a 2-sided marketplace for services on the Solana blockchain using the Anchor framework. Vendors can list their services as NFTs, and consumers can purchase these service NFTs. The marketplace supports both soulbound and non-soulbound NFTs and collects royalties on resales.
 
-## Table of Contents
-
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Program Structure](#program-structure)
-- [Deployment](#deployment)
-- [Client Scripts](#client-scripts)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Features
 
 - Vendors can list services as NFTs with metadata.
